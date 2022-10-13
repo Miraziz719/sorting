@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bar {
+  width: 10px;
+  background-color: black;
+  margin: 1px;
+}
+
+.control-bar input {
+  width: 35px;
+}
